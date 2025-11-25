@@ -3,13 +3,29 @@
 <rss version="2.0">
   <channel>
     <generator>RSS Builder by B!Soft</generator>
-    <title>ORileyTan's Epic RSS Feed</title>
+    <title>YAPNET</title>
     <link>https://orileytan.github.io</link>
-    <description>Where I post updates and other stuff that is not related to youtube such as update logs bla bla bla. Oh yea epic credits to B!Soft! Using an external RSS reader or IE is highly recommended.</description>
+    <description>I yap endlessly here. Oh yea epic credits to B!Soft! Using an external RSS reader or IE is highly recommended.</description>
     <language>en-us</language>
     <managingEditor>whatnamesaeravaiablethisthingisannoying@hotmail.com</managingEditor>
     <webMaster>whatnamesaeravaiablethisthingisannoying@hotmail.com</webMaster>
     <copyright>Don't steal this feed</copyright>
+    <item>
+      <title>Some funny shenanigans</title>
+      <pubDate>Tue, 25 Nov 2025 15:02:11 +0700</pubDate>
+      <author>mailto:whatnamesaeravaiablethisthingisannoying@hotmail.com</author>
+      <comments>mailto:whatnamesaeravaiablethisthingisannoying@hotmail.com</comments>
+      <category>Random Stuff</category>
+      <enclosure url="https://orileytan.github.io/blogimg/2023/003.jpg" length="3397" type="image/jpeg" />
+      <description><![CDATA[Hello! I am currently redoing this website because why not lol, It's going to look much more nicer but still scales horribly on mobile so, yes
+
+Oh yea I've decided to rebrand this RSS feed into YAPNET because, I feel like that's a much more creative name, although the URL stays the same so you don't have to change anything if you have subscribed to this RSS feed for some reason. Also I'm currently planning on replacing my Fireman guy with my Bucket guy because lately, I've been using him more, although I probably will still use Fireman guy from time to time. Currently getting art of him drawn by https://www.youtube.com/@rubywastaken
+He's a cool guy, you should enter that youtube URL into a web browser and subscribe to his youtube channel because, he cool
+
+ALSO HALF-LIFE 3 MIGHT EXIST LET'S GOOOO!!!!!!
+
+https://orileytan.github.io/blogimg/2025/001.jpg]]></description>
+    </item>
     <item>
       <title>So I tried</title>
       <pubDate>Wed, 11 Jun 2025 10:12:01 +0700</pubDate>
