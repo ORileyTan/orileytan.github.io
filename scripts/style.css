@@ -1,0 +1,93 @@
+p, a, button, h1,  title, pubDate, author, comments, category, description {
+	font-family: "Kochi Gothic", Osaka, "ＭＳ Ｐゴシック", "MS Gothic", sans-serif;
+}
+generator, managingEditor, webMaster, copyright, link, comments{
+display: none;
+}
+a:visited {
+color: blue;
+}
+a:hover {
+color: aqua;
+}
+a:active {
+color: lightblue;
+}
+.sitenavi {
+    margin-top: 5px;
+}
+body,  rss {
+	background-image: url("../texture/txbg.png")
+}
+button {
+    cursor: pointer;
+    background: silver;
+    border-top-color: white;
+    border-right-color: black;
+    border-left-color: white;
+    border-bottom-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+border-style: outset;
+}
+button:active {
+    border-style: inset;
+    background: grey;
+    border-top-color: black;
+    border-right-color: white;
+    border-left-color: black;
+    border-bottom-color: white;
+}
+.txtconttxt {
+    margin: inherit;
+}
+.txtconthead {
+    background-color: darkblue;
+color: white;
+font-weight: bold;
+}
+.txtcont {
+    background-color: #FFFFE1;
+border-style: solid;
+    border-width: thin;
+margin: 0%;
+margin-bottom: 5px;
+}
+
+item > title {
+display: block;
+    background-color: darkblue;
+color: white;
+font-weight: bold;
+}
+
+item, description {
+margin: 8px;
+display: block;
+    background-color: #FFFFE1;
+border-style: solid;
+    border-width: thin;
+margin-bottom: 5px;
+}
+
+channel > title {
+ font-size: xxx-large;
+ margin: auto;
+ margin-bottom: 0px;
+ padding: 3px;
+ width: 50%;
+ display: block;
+ text-align: center;
+
+display: block;
+    background-color: darkblue;
+color: white;
+}
+
+pubDate, author,category {
+display: block;
+color: blue;
+margin: 3px
+}

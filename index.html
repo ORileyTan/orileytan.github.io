@@ -1,130 +1,155 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>ORileyTan</title>
-<link rel="alternate" type="application/rss+xml" title="ORileyTan's Epic RSS Feed" href="/feed">
-<link rel="stylesheet" href="content/scripts/theme.css">
-<!--Credits to Humboldt123-->
-<meta content="TOTALLY AN EPIC WEBSITE" property="og:title" />
-<meta content="Hello and welcome to the part of the internet that I call my home on the internet" property="og:description" />
-<meta content="https://orileytan.github.io/" property="og:url" />
-<meta content="https://orileytan.github.io/content/images/backgrounds/background.bmp" property="og:image" />
-<meta content="#800000" data-react-helmet="true" name="theme-color" />
+<title>ORileyTan's funny internet thing</title>
+<link rel="stylesheet" href="scripts/style.css">
+<link rel="alternate" type="application/rss+xml" title="YAPNET" href="/feed">
+
+<script>
+function clear(obj) {
+delete arguments[0]
+}
+function btnaud() {
+  var audio = new Audio('audio/selection.mp3');
+audio.play();
+audio.addEventListener('ended', clear(audio));
+}
+
+function pagenavi(pagetogoto) {
+    document.getElementById("contentrender").src = arguments[0];
+  var audio = new Audio('audio/selection.mp3');
+audio.play();
+audio.addEventListener('ended', clear(audio));
+}
+</script>
+<style>
+body {
+	background-image: url("texture/bg.gif")
+}
+</style>
 </head>
+<body>
+
+<noscript><div style="padding: 0%;height: 20px;border-style: solid;border-color: brown;border-radius: 5px;background-color: #1d0003;border-width: thin;">
+<marquee>
+<p style="color: white;font-weight: bold;margin: 0%;">Javascript required for button functions, please enable in browser settings.</p>
+</marquee></div></noscript>
+
+<div style="float: left;width: 150px;background-color: lightgrey;margin-right: 10px;text-align: center;">
+<hr>
+<ul style="list-style: none;padding-left: 0;">
+<!--Site navigation-->
+<li>
+<p style="margin: 0%;">Site Navigation</p>
+</li>
+
+<li>
+<button class="sitenavi" onclick="pagenavi('home.html')">HOME</button>
+</li>
+<li>
+<button class="sitenavi" onclick="pagenavi('about.html')">ABOUT</button>
+</li>
+<li>
+<button class="sitenavi" onclick="pagenavi('download.html')">DOWNLOADS</button>
+</li>
+<li>
+<button class="sitenavi" onclick="pagenavi('feed.xml')"><IMG SRC="texture\badge\rss.png">YAPNET</button>
+</li>
+<!--<li>
+<button class="sitenavi" onclick="pagenavi('dzsay.html')"><IMG SRC="texture\badge\dz.png">DZ's quotes for Republic of Latvia</button>
+</li>-->
+<!--<li>
+<button class="sitenavi" onclick="pagenavi('oofyards.html')">OOFYARDS</button>
+</li>-->
+<!--<li>
+<button class="sitenavi" onclick="pagenavi('404.html')">DEBUG404PAGE</button>
+</li>-->
 
 
 
-<body bgcolor="#A6CAF0">
 
-<img src="content\images\banner.png" width="100%" height="100" style="object-fit: none;"></img>
+</ul>
+<hr>
+<ul style="list-style: none;padding-left: 0%;">
+<!--badge-->
 
+<li>
+  <IMG SRC="texture\badge\rereso.png">
+</li>
+<li>
+  <IMG SRC="texture\badge\4x3_fade.gif">
+</li>
+<li>
+<A HREF="https://www.notepad.org/">
+  <IMG SRC="texture\badge\notepad6.gif">
+</A>
+</li>
 
-<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" height="25" id="AutoNumber1" bgcolor="#808080" class="sitenavbar">
-  <tr>
-    <td width="25%" class="sitenavbutton"><a href="/">HOME</a></td>
-    <td width="25%" class="sitenavbutton"><a href="about">ABOUT</a></td>
-    <td width="25%" class="sitenavbutton"><a href="downloads">DOWNLOADS</a></td>
-    <td width="25%" class="sitenavbutton"><a href="feed">NEWS </a><img border="0" src="content/images/feed.png" width="16" height="16"></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000000" width="100%" bgcolor="#808080">
-  <tr>
-    <td width="100%">
-    <p align="center"><b><font face="Courier" size="5" color="#FFFF00">TEXT WITH 
-    SHADOWS!</font></b></td>
-  </tr>
-</table>
-<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000000" id="AutoNumber2" height="150" bgcolor="#808080" width="100%">
-  <tr>
-    <td width="178" height="50">
-<iframe id="ytplayer" type="text/html" width="540" height="303.75"
-src="https://www.youtube.com/embed/SUGiKWp8-Do?autoplay=1&cc_load_policy=1&disablekb=1&fs=0&loop=1&modestbranding=1&iv_load_policy=3"
-frameborder="0" allowfullscreen></iframe>
-</td>
-    <td width="1060" height="50" valign="top">
-    <p align="left"><span lang="id"><font face="Courier" color="#FFFFFF">If 
-    you're wondering why the site looks like this? It's because I made it with 
-    Microsoft frontpage.</font></span></p>
-    <p align="left"><font face="Courier" color="#FFFFFF"><span lang="id">H</span>ello 
-    and welcome to the part of the internet that I call my home on the internet, 
-    I do actually have a couple of stuff that the public can download, it's over 
-    at the downloads part of the website which I use for cataloguing the things 
-    that I've setup for people to download. It's likely to be filled with 
-    absolutely useless stuff although but some actually useful stuff may appear 
-    suddenly without warning.</font></td>
-  </tr>
-</table>
+</ul>
 
-<p align="left">&nbsp;</p>
-<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000000" width="100%" height="89" bgcolor="#808080">
-  <tr>
-    <td width="12%" height="89">
-    <a href="/oofyards"><img border="0" src="content\images\oofyards.png" width="144" height="51"></img></a></td>
-    <td width="88%" height="89" valign="top">
-    <font face="Courier" color="#FFFFFF">oooOOOOoooOOOOooOOOOOoooo....... You 
-    have been spooked!<br>
-    This is a portal to a graveyard, a graveyard of electronic doohickeys we 
-    spent money on and it fucking breaking one day....<br>
-    <br>
-    (btw to visit click the image lol)</font></td>
-  </tr>
-</table>
+<hr>
+<ulstyle="list-style: none;padding-left: 0%;">
+<!--Some extra buttons for people I like-->
+<li>
+<p style="margin: 0%; margin-bottom: 5px;">Cool sites!</p>
+</li>
 
-<p align="left">&nbsp;</p>
-<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000000" width="100%" height="89" bgcolor="#808080">
-  <tr>
-    <td width="12%" height="89">
-    <a href="https://www.youtube.com/channel/UCjbJga6ixq-vAAzomGj7Pqg"><img border="0" src="content/images/ytthumbloop.gif" width="144" height="81"></img></a></td>
-    <td width="88%" height="89" valign="top">
-    <p><font face="Courier" color="#FFFFFF">Check out my YouTube page! It's full of 
-    entertaining (probably) content with absolutely no commentary, poor choice 
-    of BGM, or generally the strange content style of the modern world (of 
-    2024).</font></p><p><font face="Courier" color="#FFFFFF">Warning: My videos are 
-    mostly guaranteed to be chaotic and may induce epilepsy so be wary of that.
-    </font></td>
-  </tr>
-</table>
+<li>
+<A HREF="https://theintraclinic.com">
+  <IMG SRC="https://theintraclinic.com/buttons/btn1.gif">
+</A>
+</li>
 
+<li>
+<a href="https://www.vgmusic.com">
+<img src="https://www.vgmusic.com/images/banners/vgmbttn.gif">
+</a>
+</li>
 
+<li>
+<A HREF="https://modarchive.org/">
+  <IMG SRC="https://photogabble.co.uk/img/88x31/modarchive.org.gif">
+</A>
+</li>
 
-<p>&nbsp;</p>
-<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" height="67" bgcolor="#808080">
-  <tr>
-    <td width="100%" align="center" height="16"><b><p><font face="Courier" color="#FFFFFF">Get 
-    your </font><font face="Courier" color="#FFFF00">FREE</font><font face="Courier" color="#FFFFFF">
-    </font><font face="Courier" color="#FF0000">ROBLOX</font><font face="Courier" color="#FFFFFF"> 
-    tech demos here! (Or actual games idk)</font></p></b></td>
-  </tr>
-  <tr>
-    <td width="100%" height="50" align="center">
-    <a href="https://www.roblox.com/games/7089693459/"><img border="0" src="https://tr.rbxcdn.com/d43301d99f8e4eda011eabf825c13522/352/352/Image/Png" width="64" height="64"></a>
-    <a href="https://www.roblox.com/games/15190270932/"><img border="0" src="https://tr.rbxcdn.com/3a922a05d2676fc42bfd070568cf64bc/352/352/Image/Png" width="64" height="64"></a>
-    <a href="https://www.roblox.com/games/5033769623/"><img border="0" src="https://tr.rbxcdn.com/c8c71df070fdf0d7d4274d8d2bd17073/352/352/Image/Png" width="64" height="64"></a> 
-    
-    
-    </td>
-  </tr>
-</table>
+<li>
+<A HREF="https://archive.org/">
+  <IMG SRC="https://photogabble.co.uk/img/88x31/archive.org.gif">
+</A>
+</li>
 
-<!--Testing some stuff rn-->
+<li>
+<A HREF="https://photogabble.co.uk">
+<p>Simon's webpage, I could not find the site button aagh</p>
+</A>
+</li>
 
-<div class="hslice" id = "testificate">
-  <!-- The ID of the hSlice -->
-    <div style="display:none" class=<"entry-title">Featured Bullshit</div>
-      <-- The title -->
-    <span class="ttl" style="display:none">360</span>
-      <!-- How often to refresh in minutes -->
-    <abbr class="endtime" title="1 Jan 2026 00:00:00 UTC"></abbr>
-      <!-- When the link expires -->
-    <div class="entry-content">
-        <p>Will be obliterated lol</p>
+<li>
+<A HREF="https://bandainamco-am.co.jp/am/english/aa/wanganmaxi3dxplus/">
+  <IMG style="width: 88px;height: 33px;" SRC="https://bandainamco-am.co.jp/am/english/aa/wanganmaxi3dx/cmn/img/nav_btn6.gif">
+</A>
+</li>
+
+<li>
+<A HREF="https://omniarchive.uk">
+<p>Omniarchive</p>
+</A>
+</li>
+
+<li>
+<A HREF="http://dunfield.classiccmp.org">
+<p>Daves Old Computers</p>
+</A>
+</li>
+
+</ul>
+<hr>
+
+</div>
+
+<div>
+<iframe id="contentrender" width="800" height="600" src="home.html"></iframe>
 </div>
 
 </body>
-
 </html>
