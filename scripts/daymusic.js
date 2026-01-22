@@ -12,9 +12,12 @@ const muslist = {
 '10' : 'Razormind ・Simon Viklund',
 '11' : 'Glory Days ・古代 祐三',
 '12' : 'Today is Payday Too ・Gustavo Coutinho & Ye Olde Hoxton',
+'13' : 'Nostalgia ・古代 祐三',
+'14' : 'Starlight Spada ・A-One',
+'15' : 'Quartz Quadrant (JPN) ・幡谷 尚史&尾形 雅史',
 }
 
-const chosen = Math.floor(Math.random() * 13);
+const chosen = Math.floor(Math.random() * 16);
 
 document.addEventListener('DOMContentLoaded', function() {
 document.getElementById("daymusic").innerHTML = muslist[chosen]

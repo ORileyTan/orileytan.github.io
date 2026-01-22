@@ -11,6 +11,18 @@
     <webMaster>whatnamesaeravaiablethisthingisannoying@hotmail.com</webMaster>
     <copyright>Don't steal this feed</copyright>
     <item>
+      <title>Your average VALVe moment</title>
+      <pubDate>Thu, 22 Jan 2026 10:07:33 +0700</pubDate>
+      <author>mailto:whatnamesaeravaiablethisthingisannoying@hotmail.com</author>
+      <comments>mailto:whatnamesaeravaiablethisthingisannoying@hotmail.com</comments>
+      <category>Random Stuff</category>
+      <description><![CDATA[Whenever someone says that the source engine is a mess, they're not lying... I wanted to host private matches of TF2 with friends on custom workshop maps and since I've converted my old Microsoft Surface Pro 4 laptop into a server laptop running Ubuntu server and after installing the SRCDS binaries for TF2 and launching it. It threw me an error that it could not connect to steam and the Workshop. And after loading into a map and joining the server on my client, the server also could not connect to TF2's item servers so I only could use stock items with no cosmetics.. I mean it does make it feel like it's 2009 again (somewhat) but the server was also stuck in LAN mode which isn't ideal for what I'm trying to do considering my friends are located outside of my country's borders.
+
+Turns out it was because SRCDS is looking for "steamclient.so" in the wrong fucking directory, SRCDS turns out (from reading the error logs and, source 1's github bug report page, attempted to find steamclient.so in ".steam/sdk64/" which in my instance since I downloaded SRCDS via steamcmd doesn't exist. Instead in my case, it exists in "/home/****/.local/share/Steam/steamcmd/linux64". So in your standard Source engine spagetthiness. I (and many other people) had to set up a symlink (Symbolic link for those who don't know look it up) to point .steam/sdk64 to the linux64 directory within steamcmd.
+
+VALVe, please fix!]]></description>
+    </item>
+    <item>
       <title>Some funny shenanigans</title>
       <pubDate>Tue, 25 Nov 2025 15:02:11 +0700</pubDate>
       <author>mailto:whatnamesaeravaiablethisthingisannoying@hotmail.com</author>
