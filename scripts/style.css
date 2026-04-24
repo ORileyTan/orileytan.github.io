@@ -1,5 +1,5 @@
 p, a, button, h1,  title, pubDate, author, comments, category, description {
-	font-family: "Kochi Gothic", Osaka, "ＭＳ Ｐゴシック", "MS Gothic", sans-serif;
+	font-family: "Kochi Gothic", Osaka, "ＭＳ Ｐゴシック", "MS Gothic", monospace;
 }
 generator, managingEditor, webMaster, copyright, link, comments{
 display: none;
@@ -55,7 +55,15 @@ border-style: solid;
 margin: 0%;
 margin-bottom: 5px;
 }
+/*To fix a bug where on firefox, the sidebar buttons that are just URLs are spaced weirdly*/
+/*I occasionally despise the english language*/
+Li {
+display: block
+}
 
+
+
+/*RSS*/
 item > title {
 display: block;
     background-color: darkblue;
@@ -85,8 +93,8 @@ display: block;
     background-color: darkblue;
 color: white;
 }
-
-pubDate, author,category {
+/*So I forgot to add GUID so for awhile, URLs were not styled lol*/
+pubDate, author,category,guid {
 display: block;
 color: blue;
 margin: 3px
