@@ -1,4 +1,4 @@
-p, a, button, h1,  title, pubDate, author, comments, category, description {
+p, a, button, h1,  title, pubDate, author, comments, category, description, td, marquee {
 	font-family: "Kochi Gothic", Osaka, "ＭＳ Ｐゴシック", "MS Gothic", monospace;
 }
 generator, managingEditor, webMaster, copyright, link, comments{

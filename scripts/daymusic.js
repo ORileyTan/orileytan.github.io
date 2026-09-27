@@ -15,9 +15,13 @@ const muslist = {
 '13' : 'Nostalgia ・古代 祐三',
 '14' : 'Starlight Spada ・A-One',
 '15' : 'Quartz Quadrant (JPN) ・幡谷 尚史&尾形 雅史',
+'16' : 'DEEP IN THE HEATWAVE ・GUCCI &小寺可南子',
+'17' : 'My initial ・Xceon &小林マナ& mioco',
+'18' : 'Necrophantasia ・SOUND HOLIC VO:YURiCa / 花たん',
+'19' : 'GET IN THE GROOVE ・DJ Command(Eurobeat Union)feat. okogeeechann'
 }
 
-const chosen = Math.floor(Math.random() * 16);
+const chosen = Math.floor(Math.random() * 20);
 
 document.addEventListener('DOMContentLoaded', function() {
 document.getElementById("daymusic").innerHTML = muslist[chosen]
