@@ -1,0 +1,78 @@
+hr {
+	color: orange;
+}
+.indexbg {
+	background-image: url("../texture/haloweenbg.gif");
+}
+p, a, button, h1,  title, pubDate, author, comments, category, description, td, marquee {
+	font-family: "Kochi Gothic", Osaka, "ＭＳ Ｐゴシック", "MS Gothic", monospace;
+}
+generator, managingEditor, webMaster, copyright, link, comments{
+display: none;
+}
+a:visited {
+color: darkgreen;
+}
+a:hover {
+color: red;
+}
+a:active {
+color: white;
+}
+a {
+	color:darkgreen;
+}
+.sitenavi {
+    margin-top: 5px;
+}
+.navigationpane {
+	float: left;
+	width: 150px;
+	background-color: #C04000;
+	margin-right: 10px;
+	text-align: center;
+}
+body,  rss {
+	background-image: url("../texture/txbg.png")
+}
+button {
+    cursor: pointer;
+    background: orange;
+    border-top-color: #FFAC1C;
+    border-right-color: #CC7722;
+    border-left-color: #FFAC1C;
+    border-bottom-color: #CC7722;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+border-style: outset;
+}
+button:active {
+    border-style: inset;
+    background: darkorange;
+    border-top-color: #CC7722;
+    border-right-color: #FFAC1C;
+    border-left-color: #CC7722;
+    border-bottom-color: #FFAC1C;
+}
+.txtconttxt {
+    margin: inherit;
+}
+.txtconthead {
+    background-color: darkorange;
+color: black;
+font-weight: bold;
+}
+.txtcont {
+    background-color: darkgrey;
+border-style: solid;
+    border-width: thin;
+margin: 0%;
+margin-bottom: 5px;
+}
+/*To fix a bug where on firefox, the sidebar buttons that are just URLs are spaced weirdly*/
+/*I occasionally despise the english language*/
+Li {
+display: block
+}

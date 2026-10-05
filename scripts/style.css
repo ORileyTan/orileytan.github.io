@@ -1,3 +1,6 @@
+.indexbg {
+	background-image: url("../texture/bg.gif");
+}
 p, a, button, h1,  title, pubDate, author, comments, category, description, td, marquee {
 	font-family: "Kochi Gothic", Osaka, "ＭＳ Ｐゴシック", "MS Gothic", monospace;
 }
@@ -15,6 +18,13 @@ color: lightblue;
 }
 .sitenavi {
     margin-top: 5px;
+}
+.navigationpane {
+	float: left;
+	width: 150px;
+	background-color: lightgrey;
+	margin-right: 10px;
+	text-align: center;
 }
 body,  rss {
 	background-image: url("../texture/txbg.png")
